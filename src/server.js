@@ -11,7 +11,9 @@ const notFound = require('./error-handlers/404.js');
 const authRoutes = require('./auth/router/index.router.js');
 const todoRoutes = require('./auth/router/todo.route.js');
 
-// Prepare the express app
+
+
+
 const app = express();
 
 // App Level MW
